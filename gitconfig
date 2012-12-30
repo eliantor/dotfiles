@@ -1,0 +1,7 @@
+[user]
+	name = Eliantor
+	email = eliantor@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	editor = emacsclient

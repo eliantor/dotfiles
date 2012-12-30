@@ -1,3 +1,4 @@
 emacs/elpa
 emacs/savefile
+emacs/auto-save-list
 lein/self-installs

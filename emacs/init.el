@@ -13,9 +13,7 @@
 (defvar eto-savefile-dir (expand-file-name "savefile" eto-root-dir))
 
 (defvar eto-package-list 
-  '(solarized-theme
-    zenburn-theme
-    exec-path-from-shell))
+  '(exec-path-from-shell))
 
 (unless (file-exists-p eto-savefile-dir)
   (make-directory eto-savefile-dir))

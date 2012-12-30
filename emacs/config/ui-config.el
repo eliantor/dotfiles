@@ -1,7 +1,12 @@
+(ensure-deps '(solarized-theme
+	       twilight-theme
+	       zenburn-theme))
+
 (when (fboundp 'tool-bar-mode)
   (tool-bar-mode -1))
 
 (require 'server)
+
 (defun eto-config-frame (frame)
   "New frame behaviour"
   (if (eq system-type 'darwin)

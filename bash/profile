@@ -1,0 +1,6 @@
+export ETO_LOCAL=$HOME/Local
+export BASH_CONFIG=$ETO_LOCAL/etc/bash
+source $BASH_CONFIG/vars
+source $BASH_CONFIG/path
+
+for f in $BASH_CONFIG/*.sh; do source $f; done

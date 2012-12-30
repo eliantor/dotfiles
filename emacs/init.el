@@ -29,6 +29,7 @@
 (require 'package-config)
 (require 'editor-config)
 (require 'ui-config)
+(require 'magit-config)
 (when (eq system-type "darwin")
   (require 'osx-config))
 (require 'elisp-config)

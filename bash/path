@@ -1,0 +1,29 @@
+#!/bin/sh
+
+#custom binaries
+PATH=$PATH:$ETO_LOCAL/bin
+
+#android
+ANDROID_HOME=$ETO_LOCAL/Android
+ANDROID_PATH=$ANDROID_HOME/sdk/tools:$ANDROID_HOME/sdk/platform-tools:$ANDROID_HOME/ndk
+PATH=$PATH:$ANDROID_PATH
+unset ANDROID_HOME
+unset ANDROID_PATH
+
+#mysql
+PATH=$PATH:/usr/local/mysql/bin
+
+#vertx
+PATH=$PATH:$ETO_LOCAL/vert.x/bin
+
+#mongodb
+PATH=$PATH:$ETO_LOCAL/mongodb/bin
+
+#python
+PATH=$PATH:$PYTHON_ROOT/bin
+
+#ruby
+PATH=$PATH:$RBENV_ROOT/bin
+PATH=$PATH:$RBX_ROOT/gems/1.9/bin
+
+export PATH

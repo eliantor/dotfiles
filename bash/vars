@@ -1,0 +1,13 @@
+#!/bin/sh
+export LEIN_HOME=$ETO_CONFIG/lein
+
+
+
+export RBENV_ROOT=$ETO_LOCAL/rbenv
+export RBX_ROOT=$RBENV_ROOT/versions/rbx-2.0.0-dev
+
+export PYVER="3.3"
+export PYTHON_ROOT="/Library/Frameworks/Python.framework/Versions/${PYVER}/"
+
+export CLICOLOR=1
+export LSCOLORS=exfxcxdxbxexexabagacad 

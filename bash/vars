@@ -1,5 +1,5 @@
 #!/bin/sh
-export LEIN_HOME=$ETO_CONFIG/lein
+export LEIN_HOME=$ETO_LOCAL/etc/lein
 
 
 

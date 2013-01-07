@@ -24,7 +24,9 @@
 (add-hook 'auto-complete-mode-hook 'eto-auto-complete-setup)
 
 (add-hook 'nrepl-mode-hook 'eto-nrepl-setup)
+
 (add-hook 'nrepl-interaction-mode-hook 'eto-nrepl-setup)
+
 (add-hook 'clojure-mode-hook 
 	  (lambda ()
 	    (run-hooks 'lisp-code-hooks)))

@@ -1,4 +1,5 @@
 emacs/elpa
 emacs/savefile
 emacs/auto-save-list
+emacs/ac-comphist.dat
 lein/self-installs

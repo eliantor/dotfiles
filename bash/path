@@ -1,7 +1,8 @@
 #!/bin/sh
 
 #custom binaries
-PATH=$PATH:$ETO_LOCAL/bin
+PATH=$ETO_LOCAL/opt/bin:$PATH
+PATH=$ETO_LOCAL/bin:$PATH
 
 #android
 ANDROID_HOME=$ETO_LOCAL/Android

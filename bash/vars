@@ -1,7 +1,7 @@
 #!/bin/sh
 export LEIN_HOME=$ETO_LOCAL/etc/lein
 
-
+export MANPATH=$MANPATH:$ETO_LOCAL/opt/share/man
 
 export RBENV_ROOT=$ETO_LOCAL/rbenv
 export RBX_ROOT=$RBENV_ROOT/versions/rbx-2.0.0-dev

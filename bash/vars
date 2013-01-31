@@ -1,6 +1,8 @@
 #!/bin/sh
 export LEIN_HOME=$ETO_LOCAL/etc/lein
 
+export NODE_PATH=$ETO_LOCAL/opt/lib/node:$ETO_LOCAL/opt/lib/node_modules
+export N_PREFIX=$ETO_LOCAL/opt
 export MANPATH=$MANPATH:$ETO_LOCAL/opt/share/man
 
 export RBENV_ROOT=$ETO_LOCAL/rbenv
